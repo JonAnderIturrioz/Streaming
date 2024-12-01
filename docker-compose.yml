@@ -1,0 +1,14 @@
+version: '1'
+services:
+  icecast:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile.icecast
+    ports:
+      - "8000:8000"
+  web:
+    build:
+      context: ./docker
+      dockerfile: Dockerfile.web
+    ports:
+      - "80:80"
