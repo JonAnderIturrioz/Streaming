@@ -9,9 +9,33 @@
 </head>
 
 <body>
-  <h1>What do you want to do?</h1>
-  <a href="/views/video_test.html">Watch a video (html5)</a>
-  <a href="/views/videojs_test.html">Watch a video (VideoJS)</a>
+  <table>
+    <tr>
+      <td>
+        <h1>What do you want to do?</h1>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button onclick="location.href='/views/video_test.html'">Watch a video (html5)</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button onclick="location.href='/views/videojs_test.html'">Watch a video (VideoJS)</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button onclick="location.href='/views/DASH_test.html'">Watch a video (DASH)</button>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button onclick="location.href='/views/livestream.html'">Watch live video</button>
+      </td>
+    </tr>
+  </table>
 </body>
 
 </html>

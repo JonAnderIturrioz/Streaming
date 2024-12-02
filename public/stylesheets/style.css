@@ -6,3 +6,26 @@ body {
 a {
   color: #00B7FF;
 }
+
+:root {
+  --viewport-width: 100vw;
+  --viewport-height: 100vh;
+}
+
+video {
+  width: 60%;
+}
+
+.fullscreen video {
+  width: var(--viewport-width);
+  height: var(--viewport-height);
+}
+
+#videoController {
+  width: 60%;
+}
+
+.fullscreen #videoController {
+  width: var(--viewport-width);
+  height: var(--viewport-height);
+}
