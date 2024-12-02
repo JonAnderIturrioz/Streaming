@@ -597,7 +597,7 @@ var ControlBar = function (dashjsMediaPlayer, displayUTCTimeCodes) {
     };
 
     // Match up the current dashjs text tracks against native video element tracks by ensuring they have matching properties
-    var _matchTrackWithNativeTrack = function(track, nativeTrack) {
+    var _matchTrackWithNativeTrack = function (track, nativeTrack) {
         let label = track.id !== undefined ? track.id.toString() : track.lang;
 
         return !!(
@@ -838,7 +838,7 @@ var ControlBar = function (dashjsMediaPlayer, displayUTCTimeCodes) {
                 // Other tracks will just have their text
                 item.textContent = arr[i];
             }
-            
+
             item.onmouseover = function (/*e*/) {
                 if (this.selected !== true) {
                     this.classList.add('menu-item-over');
