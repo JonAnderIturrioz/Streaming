@@ -56,25 +56,8 @@
                 </div>
             </div>
         </div>
-        <script src="dash.all.min.js"></script>
-        <script src="ControlBar.js"></script>
-        <link rel="stylesheet" href="controlbar.css">
-        <script>
-            (function(){
-                //url-a beidatu behar dan nola jarri ondo zerbitzarian dagoenean
-                var url = "/mpd/output.mpd";
-                var videoElement = document.querySelector('.videoContainer video');
-                var player = dashjs.MediaPlayer().create();
-                player.initialize(videoElement, url, true);
-                var controlbar = new ControlBar(player);
-                controlbar.initialize();
-            })();
-            var videoContainer = document.getElementById('videoContainer');
-            document.addEventListener('fullscreenchange', function() { 
-                if (document.fullscreenElement) { 
-                    videoContainer.classList.add('fullscreen'); 
-                } else { 
-                    videoContainer.classList.remove('fullscreen'); 
-                } });
-        </script>
+        <script src="../public/javascripts/dash.all.min.js"></script>
+        <script src="../public/javascripts/ControlBar.js"></script>
+        <link rel="stylesheet" href="../public/stylesheets/controlbar.css">
+        <script src="../public/javascripts/DASH_test.js"></script>
 </html>
