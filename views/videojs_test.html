@@ -2,24 +2,24 @@
 <html lang="">
 <title>VideoJS</title>
 <script src="/public/javascripts/videojs.js"></script>
-<style src="/public/stylesheets/videojs.css"></style>
+<script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+
 
 <head>
-  <meta charset="utf-8">
-  <title></title>
   <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
-  <script src="https://unpkg.com/video.js/dist/video.min.js"></script>
+  <link href="/public/stylesheets/videojs.css" rel="stylesheet">
+  <link href="/public/stylesheets/style.css" type="css" rel="stylesheet">
 
 </head>
 
 <body>
+
   <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px" data-setup='{}' controls
-    preload="none" poster='http://content.bitsontherun.com/thumbs/3XnJSIm4-480.jpg'
-    data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+    preload="none" data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
     <source src="/video/res.mp4" type="video/mp4">
   </video>
-  <link href="/public/stylesheets/videojs.scss" type="scss" rel="stylesheet">
-  <button onclick="location.href='/views/video-players.html'">Go back</button>
+
+  <button class="atzera-botoia" onclick="location.href='/views/video-players.html'">Atzera</button>
 </body>
 
 </html>
