@@ -3,8 +3,23 @@
 
 <head>
     <title>Test Dash.js</title>
-    <link rel="stylesheet" href="/public/stylesheets/controlbar.css">
-    <style src="/public/stylesheets/style.css"></style>
+    <style>
+        video {
+            width: 60%;
+        }
+
+        .fullscreen video {
+            width: 100%;
+        }
+
+        #videoController {
+            width: 60%;
+        }
+
+        .fullscreen #videoController {
+            width: 100%;
+        }
+    </style>
 </head>
 
 <body>
@@ -48,6 +63,27 @@
     </div>
     <script src="/public/javascripts/dash.all.min.js"></script>
     <script src="/public/javascripts/ControlBar.js"></script>
-    <script src="/public/javascripts/DASH_test.js"></script>
+    <link rel="stylesheet" href="/public/sylesheets/controlbar.css">
+    <script>
+        (function () {
+            var url = "https://dash.akamaized.net/akamai/bbb_30fps/bbb_30fps.mpd";
+            var videoElement = document.querySelector('.videoContainer video');
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(videoElement, url, true);
+
+            var controlbar = new ControlBar(player);
+            controlbar.initialize();
+        })();
+
+        var videoContainer = document.getElementById('videoContainer');
+        document.addEventListener('fullscreenchange', function () {
+            if (document.fullscreenElement) {
+                videoContainer.classList.add('fullscreen');
+            } else {
+                videoContainer.classList.remove('fullscreen');
+            }
+        });
+
+    </script>
 
 </html>
