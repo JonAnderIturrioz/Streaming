@@ -216,36 +216,7 @@
 					</SegmentTimeline>
 				</SegmentTemplate>
 			</Representation>
-			<Representation id="3" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
-				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="219952" />
-						<S d="221184" r="48" />
-						<S d="77824" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
-			<Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
-				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="220160" />
-						<S d="221184" r="48" />
-						<S d="73728" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
-			<Representation id="7" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
-				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
-				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
-					<SegmentTimeline>
-						<S t="0" d="219952" />
-						<S d="221184" r="48" />
-						<S d="77824" />
-					</SegmentTimeline>
-				</SegmentTemplate>
-			</Representation>
+			
 		</AdaptationSet>
 	</Period>
 </MPD>
