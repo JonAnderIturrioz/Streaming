@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="">
+
+<head>
+    <meta charset="utf-8">
+    <title>MPEG-DASH</title>
+    <script src="/public/javascripts/dash.all.min.js"></script>
+    <style>
+        video {
+            width: 60%;
+        }
+
+        .fullscreen video {
+            width: 100%;
+        }
+
+        #videoController {
+            width: 60%;
+        }
+
+        .fullscreen #videoController {
+            width: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <div id="videoContainer" class="videoContainer">
+            <video id="videoPlayer" controls autoplay></video>
+        </div>
+        <button onclick="location.href='/views/video-players.html'">Go back</button>
+    </main>
+    <footer></footer>
+    <script>
+        (function () {
+            var url = "/video/res.mpd";
+            var player = dashjs.MediaPlayer().create();
+            player.initialize(document.querySelector("#videoPlayer"), url, true);
+        })();
+    </script>
+</body>
+
+</html>

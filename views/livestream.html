@@ -5,16 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Video Player</title>
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/style.css">
 </head>
 
 <body>
-    <video width="640" controls>
+    <video id="livestream-player" width="80%" controls>
         <source src="http://localhost:8000/streammountpoint.webm" type="video/webm">
-        Your browser does not support the video tag.
+        <p>Zure arakatzaileak ez du video tag-a onartzen.</p>
+
     </video>
     <br>
-    <button onclick="location.href='/index.html'">Go back</button>
-
+    <button class="atzera-botoia" onclick="location.href='/index.html'">Atzera</button>
 
 </body>
 

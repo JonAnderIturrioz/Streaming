@@ -5,15 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bideo-erreproduzitzaileak</title>
+    <link rel="stylesheet" type="text/css" href="/public/stylesheets/style.css">
 </head>
 
 <body>
-    <article>
-        <h1>Select a Video Player</h1>
+    <div class="centered-container">
+        <article>
+            <h1>Aukeratu bideo-erreproduzitzaile bat</h1>
 
-        <button onclick="location.href='/views/video_test.html'">Watch Video (HTML5 Video Tag)</button>
-        <button onclick="location.href='/views/videojs_test.html'">Watch Video (VideoJS)</button>
-    </article>
+            <button onclick="location.href='/views/video_test.html'">HTML5 video</button>
+            <button onclick="location.href='/views/videojs_test.html'">VideoJS</button>
+        </article>
+        <button class="atzera-botoia" onclick="location.href='/index.html'">Atzera</button>
 </body>
 
 </html>
