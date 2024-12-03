@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MPD xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="urn:mpeg:dash:schema:mpd:2011"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xsi:schemaLocation="urn:mpeg:DASH:schema:MPD:2011 http://standards.iso.org/ittf/PubliclyAvailableStandards/MPEG-DASH_schema_files/DASH-MPD.xsd"
+	profiles="urn:mpeg:dash:profile:isoff-live:2011"
+	type="static"
+	mediaPresentationDuration="PT4M12.4S"
+	maxSegmentDuration="PT5.0S"
+	minBufferTime="PT13.9S">
+	<ProgramInformation>
+		<Title>My Chemical Romance - Na Na Na [Official Music Video]</Title>
+	</ProgramInformation>
+	<ServiceDescription id="0">
+	</ServiceDescription>
+	<Period id="0" start="PT0.0S">
+		<AdaptationSet id="0" contentType="video" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" frameRate="24000/1001" maxWidth="1920" maxHeight="1080" par="16:9" lang="und">
+			<Representation id="0" mimeType="video/mp4" codecs="avc1.640028" bandwidth="3000000" width="1920" height="1080" sar="1:1">
+				<SegmentTemplate timescale="24000" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="1001" d="141141" />
+						<S d="177177" />
+						<S d="136136" />
+						<S d="143143" />
+						<S d="127127" />
+						<S d="144144" />
+						<S d="169169" />
+						<S d="141141" />
+						<S d="140140" />
+						<S d="120120" />
+						<S d="148148" />
+						<S d="141141" />
+						<S d="165165" />
+						<S d="156156" />
+						<S d="181181" />
+						<S d="156156" />
+						<S d="145145" />
+						<S d="124124" />
+						<S d="122122" />
+						<S d="175175" />
+						<S d="161161" />
+						<S d="145145" />
+						<S d="142142" />
+						<S d="150150" />
+						<S d="212212" />
+						<S d="178178" />
+						<S d="137137" />
+						<S d="130130" />
+						<S d="153153" />
+						<S d="127127" />
+						<S d="137137" />
+						<S d="122122" />
+						<S d="135135" />
+						<S d="127127" />
+						<S d="120120" />
+						<S d="125125" />
+						<S d="168168" />
+						<S d="157157" />
+						<S d="136136" />
+						<S d="167167" />
+						<S d="172172" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+			<Representation id="2" mimeType="video/mp4" codecs="avc1.4d401f" bandwidth="1500000" width="1280" height="720" sar="1:1">
+				<SegmentTemplate timescale="24000" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="1001" d="141141" />
+						<S d="177177" />
+						<S d="136136" />
+						<S d="143143" />
+						<S d="127127" />
+						<S d="144144" />
+						<S d="169169" />
+						<S d="141141" />
+						<S d="133133" />
+						<S d="127127" />
+						<S d="148148" />
+						<S d="141141" />
+						<S d="165165" />
+						<S d="156156" />
+						<S d="218218" />
+						<S d="175175" />
+						<S d="165165" />
+						<S d="135135" />
+						<S d="150150" />
+						<S d="121121" />
+						<S d="128128" />
+						<S d="259259" />
+						<S d="150150" />
+						<S d="205205" />
+						<S d="125125" />
+						<S d="197197" />
+						<S d="130130" />
+						<S d="153153" />
+						<S d="127127" />
+						<S d="137137" />
+						<S d="122122" />
+						<S d="135135" />
+						<S d="127127" />
+						<S d="120120" />
+						<S d="125125" />
+						<S d="168168" />
+						<S d="157157" />
+						<S d="136136" />
+						<S d="167167" />
+						<S d="172172" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+			<Representation id="4" mimeType="video/mp4" codecs="avc1.4d401e" bandwidth="800000" width="640" height="360" sar="1:1">
+				<SegmentTemplate timescale="24000" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="141141" />
+						<S d="177177" />
+						<S d="136136" />
+						<S d="143143" />
+						<S d="127127" />
+						<S d="144144" />
+						<S d="169169" />
+						<S d="141141" />
+						<S d="133133" />
+						<S d="127127" />
+						<S d="148148" />
+						<S d="141141" />
+						<S d="165165" />
+						<S d="156156" />
+						<S d="138138" />
+						<S d="139139" />
+						<S d="128128" />
+						<S d="153153" />
+						<S d="135135" />
+						<S d="150150" />
+						<S d="121121" />
+						<S d="128128" />
+						<S d="259259" />
+						<S d="150150" />
+						<S d="152152" />
+						<S d="127127" />
+						<S d="125125" />
+						<S d="123123" />
+						<S d="130130" />
+						<S d="153153" />
+						<S d="127127" />
+						<S d="137137" />
+						<S d="122122" />
+						<S d="135135" />
+						<S d="127127" />
+						<S d="120120" />
+						<S d="125125" />
+						<S d="168168" />
+						<S d="157157" />
+						<S d="136136" />
+						<S d="167167" />
+						<S d="172172" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+			<Representation id="6" mimeType="video/mp4" codecs="avc1.4d400c" bandwidth="200000" width="256" height="144" sar="1:1">
+				<SegmentTemplate timescale="24000" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="1001" d="141141" />
+						<S d="177177" />
+						<S d="136136" />
+						<S d="143143" />
+						<S d="127127" />
+						<S d="144144" />
+						<S d="123123" />
+						<S d="140140" />
+						<S d="142142" />
+						<S d="141141" />
+						<S d="172172" />
+						<S d="141141" />
+						<S d="165165" />
+						<S d="156156" />
+						<S d="138138" />
+						<S d="139139" />
+						<S d="128128" />
+						<S d="153153" />
+						<S d="135135" />
+						<S d="142142" />
+						<S d="129129" />
+						<S d="128128" />
+						<S d="259259" />
+						<S d="150150" />
+						<S d="152152" />
+						<S d="122122" />
+						<S d="130130" />
+						<S d="123123" />
+						<S d="130130" />
+						<S d="153153" />
+						<S d="127127" />
+						<S d="137137" />
+						<S d="122122" />
+						<S d="135135" />
+						<S d="127127" />
+						<S d="120120" />
+						<S d="125125" />
+						<S d="168168" />
+						<S d="157157" />
+						<S d="136136" />
+						<S d="167167" />
+						<S d="172172" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+		<AdaptationSet id="1" contentType="audio" startWithSAP="1" segmentAlignment="true" bitstreamSwitching="true" lang="eng">
+			<Representation id="1" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="219952" />
+						<S d="221184" r="48" />
+						<S d="77824" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+			<Representation id="3" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="219952" />
+						<S d="221184" r="48" />
+						<S d="77824" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+			<Representation id="5" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="220160" />
+						<S d="221184" r="48" />
+						<S d="73728" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+			<Representation id="7" mimeType="audio/mp4" codecs="mp4a.40.2" bandwidth="128000" audioSamplingRate="44100">
+				<AudioChannelConfiguration schemeIdUri="urn:mpeg:dash:23003:3:audio_channel_configuration:2011" value="2" />
+				<SegmentTemplate timescale="44100" initialization="'$RepresentationID$-init.m4s'" media="'$RepresentationID$-$Number$.m4s'" startNumber="1">
+					<SegmentTimeline>
+						<S t="0" d="219952" />
+						<S d="221184" r="48" />
+						<S d="77824" />
+					</SegmentTimeline>
+				</SegmentTemplate>
+			</Representation>
+		</AdaptationSet>
+	</Period>
+</MPD>
