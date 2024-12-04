@@ -140,16 +140,28 @@
 }
 
 .menu {
-    position: absolute;
+    position: relative;
 }
 
 #bitrateMenu .menu-sub-menu-title {
     min-width: 150px;
 }
 
+.control-icon-layout {
+    position: relative;
+}
+
+#bitrateMenu {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+
+    width: 150px;
+}
+
 @font-face {
     font-family: 'icomoon';
-    src: url("../fonts/icomoon.ttf") format("truetype");
+    src: url("/fonts/icomoon.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }

@@ -8,7 +8,7 @@
 <head>
   <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
   <link href="/public/stylesheets/videojs.css" rel="stylesheet">
-  <link href="/public/stylesheets/style.css" type="css" rel="stylesheet">
+  <link href="../public/stylesheets/style.css" type="css" rel="stylesheet">
 
 </head>
 
@@ -19,7 +19,23 @@
     <source src="/video/res.mp4" type="video/mp4">
   </video>
 
-  <button class="atzera-botoia" onclick="location.href='/views/video-players.html'">Atzera</button>
+  <style>
+    #videojs-atzera {
+      max-width: max-content;
+      float: center;
+      border: none;
+      color: black;
+      padding: 12px;
+      text-align: center;
+      font-size: 16px;
+      font-weight: bold;
+      margin: 4px 2px;
+      cursor: pointer;
+      border-radius: 8px;
+    }
+  </style>
+  <p><button id="videojs-atzera" onclick="location.href='/views/video-players.html'">Atzera</button></p>
+
 </body>
 
 </html>
