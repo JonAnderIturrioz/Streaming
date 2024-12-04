@@ -6,35 +6,29 @@
 
 
 <head>
+  <link href="/public/stylesheets/style.css" type="css" rel="stylesheet">
   <link href="https://unpkg.com/video.js/dist/video-js.min.css" rel="stylesheet">
   <link href="/public/stylesheets/videojs.css" rel="stylesheet">
-  <link href="../public/stylesheets/style.css" type="css" rel="stylesheet">
+
 
 </head>
 
 <body>
 
-  <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px" data-setup='{}' controls
-    preload="none" data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
-    <source src="/video/res.mp4" type="video/mp4">
-  </video>
-
-  <style>
-    #videojs-atzera {
-      max-width: max-content;
-      float: center;
-      border: none;
-      color: black;
-      padding: 12px;
-      text-align: center;
-      font-size: 16px;
-      font-weight: bold;
-      margin: 4px 2px;
-      cursor: pointer;
-      border-radius: 8px;
-    }
-  </style>
-  <p><button id="videojs-atzera" onclick="location.href='/views/video-players.html'">Atzera</button></p>
+  <div class="custom-video-container">
+    <h1>VideoJS</h1>
+    <hr>
+    <section>
+      <h2>Dortokak</h2>
+      <video id="my_video_1" class="video-js vjs-default-skin" width="640px" height="267px" data-setup='{}' controls
+        preload="none" data-setup='{ "aspectRatio":"640:267", "playbackRates": [1, 1.5, 2] }'>
+        <source src="/video/Turtle _ Tortoise - A Funny Turtle And Cute Turtle Videos Compilation __ NEW HD.mp4"
+          type="video/mp4">
+      </video>
+    </section>
+    <hr>
+    <button class="atzera-botoia" onclick="location.href='/views/video-players.html'">Atzera</button>
+  </div>
 
 </body>
 
